@@ -1,0 +1,61 @@
+{
+"admin": {
+    "gyms": 
+        [
+        {
+        "nickname-gym": "DelValleGym",
+        "description": "Lorem ipsum dolor sit",
+        "address" :{          
+            "street" : "Amores, Colonia del Valle",
+            "city": "CDMX",
+            "state": "CDMX",
+            "zipcode": "03100"
+                    },
+        "location-size": "medium",
+        "staff-size": "6-12",
+        "specialties": "General Fitness, Crossfit",
+        "profile-logo" : "https:///wwww.urlProfileLogo.com",
+        "stripe-id" : "stripeID",
+        "members-count": "2187"
+        }
+        ],
+    "trainers":
+        [
+        {
+        "nickname-trainer": "EmmanuelMartinez",
+        "email":"email@email.com",
+        "first-name":"Emmanuel",
+        "last-name":"Martinez",
+        "specialties": "Gymnastics, Crossfit",
+        "gym": { "DelValleGym": true },
+        "clients-training": "3",
+        "stripe-id" : "stripeID"
+        }
+        ],
+    "clients":
+        [
+        {
+        "email": "email@email.com",
+        "first-name": "Emilia",
+        "last-name": "Rodriguez",
+        "phone":"9039825962",
+        "social-network":"slack",
+        "contact":"sms",
+        "goals-primary":{
+            "type": "weight",
+            "meeting-frequency": "monthly",
+            "duration":"07082022 - 17012023",
+            "details":"Lose about 20 to 30 lbs"
+            },
+        "goals-secondary":{
+            "type": "endurance",
+            "meeting-frequency": "bi-weekly",
+            "duration":"07082022 - 17012023",
+            "details":"Run a mile in 8 minutes"
+            },
+        "gym": { "DelValleGym": true },
+        "trainer": {"EmmanuelMartinez": true }
+        }
+        ]
+            }
+}

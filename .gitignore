@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+assets
+fonts
+img
+public
+src
+
+postcss.config.js
+README.md
+tailwind.config.js

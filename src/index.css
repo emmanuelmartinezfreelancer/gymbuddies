@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @font-face {
   font-family: "helvetica-bold";
   src: url("/fonts/Helvetica-bold.ttf");

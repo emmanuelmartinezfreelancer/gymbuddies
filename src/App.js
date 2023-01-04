@@ -6,7 +6,6 @@ import { Home } from "./components/Home";
 import { Profile } from "./components/Profile"
 import { ProtectedRoute } from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/authContext";
-import { HomeJuez } from "./components/HomeJuez";
 
 function App() {
   return (
@@ -26,12 +25,6 @@ function App() {
           <Route path="/profile" element={
               <ProtectedRoute>
                   <Profile />
-              </ProtectedRoute>
-
-          }/>
-          <Route path="/home-juez" element={
-              <ProtectedRoute>
-                  <HomeJuez />
               </ProtectedRoute>
 
           }/>
